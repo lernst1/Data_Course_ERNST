@@ -71,5 +71,3 @@ tidy_ani <- tidy_avg %>%
   ease_aes('linear')
 
 tidy_ani
-
-animate(tidy_ani, n_frames = 100, fps = 10, width = 100, height = 600)
